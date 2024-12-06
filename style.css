@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f7f9;
+  font-family: "overpass";
+}
+
+.box {
+  width: 304px;
+  height: 388px;
+  margin-top: 206px;
+  margin-left: 568px;
+  border-radius: 10px;
+  background-color: white;
+  background-image: url(da9bb791587b8022c475d39822c50c17.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.name {
+  width: 128px;
+  height: 24px;
+  padding-top: 24px;
+  padding-left: 24px;
+  font-weight: 500px;
+  font-size: 14px;
+}
+
+.shadow {
+  width: 304px;
+  height: 68px;
+  margin-top: 167px;
+}
+
+.skills {
+  width: 168px;
+  height: 24px;
+  margin-top: 5px;
+  margin-left: 68px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 14px;
+  color: #90a3bf;
+}
+
+.price {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 16px;
+}
+
+.tag {
+  width: 116px;
+  height: 44px;
+  font-weight: 700;
+  margin-top: 13px;
+}
+
+.button {
+  width: 116px;
+  height: 44px;
+  padding: 0 20px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background-color: #3563e9;
+  text-align: center;
+  font-weight: 600px;
+  font-size: 16px;
+  cursor: pointer;
+}
